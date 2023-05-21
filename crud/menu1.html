@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<header>
+			<img src="imagenes/banner.jpg" width="100%">
+		</header>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			nav {
+    		background: black;
+    		height: 58px;
+    		width: 200%;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:14px 20px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="popayan.php">Inicio</a></li>
+				<li><a href="">Información</a>
+					<ul>
+						<li><a href="yo.php">Turismo</a></li>
+						<li><a href="hoteles.php">Hoteles</a></li>
+						<li><a href="gastronomia.php">Gastonimia</a></li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="eventos.php">Eventos</a></li>
+						<li><a href="procesion.php">Procesion</a></li>
+					</ul>
+				</li>
+				<li><a href="">Nosotros</a>
+					<ul>
+						<li><a href="mision.php">Misión</a></li>
+						<li><a href="vision.php">Visión</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+input[required]{
+  border-color:#936EB5;;
+  box-shadow:0px 0px 5px #936EB5;;
+}
+input:invalid{
+  border-color:#936EB5;
+  box-shadow:0px 0px 5px #936EB5;;
+}
+input:valid{
+    border-color:coral;
+    box-shadow:0px 0px 5px #936EB5;;
+}
+input 
+{
+    background-color: #936EB5;
+    color:#936EB5;
+}
+
+fieldset{
+  border-radius:5px;
+  border:1px dotted #936EB5;
+}
+
+
+*{
+    padding: #936EB5;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+ /* borde negro */
+nav{
+    background: black;
+    height: 58px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 14px 20px;
+}
+.logo{
+    height: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+
+/*botones morados*/
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #936EB5;
+    font-size: 15px;
+    padding: 14px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #936EB5;
+    transition: .5s;
+}
+
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+
+form 
+{
+    background-color: beige;
+    color: black;
+}
+
+}
